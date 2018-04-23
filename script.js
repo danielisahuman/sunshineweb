@@ -13,7 +13,7 @@ function c(pos) {
 
     var apiCall;
 
-    apiCall = 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + long + '&appid=34157961a6c13995bcec1937d26fded2' + '&units=metric';
+    apiCall = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + long + '&appid=34157961a6c13995bcec1937d26fded2' + '&units=metric';
     console.log(apiCall)
 
     var xmlhttp = new XMLHttpRequest();
