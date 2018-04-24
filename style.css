@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 body {
     padding: 0;
     margin: 0;
+    background: #4A148C;
+    color: white;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
 }
-input {
+html {
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+p, a, li {
+    font-weight: 400;
+}
+#cityInput {
     border: none;
+    background: rgba(255, 255, 255, 0.1);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+    width: 90%;
+    color: white;
+}
+#cityInputSearch {
+    width: 10%;
 }
