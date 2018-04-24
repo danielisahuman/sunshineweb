@@ -1,3 +1,9 @@
+#Project Sunshine Website
+
+Project Sunshine is my personal weather project. Basically, it tells the weather. This is the Web version of Sunshine and is in very early stages of development. Feel free to contribute to the experimental branch but the master branch will be reserved for tried and tested features.
+
+Another thing, this website is hosted as a Github page so you can see this project [here](https://danielisahuman.github.io/sunshineweb).
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/danielisahuman/sunshineweb/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
