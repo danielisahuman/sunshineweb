@@ -2,23 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Sunshine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Sunshine</title>
 </head>
 
 <body>
+  <form class="searchBar" onsubmit="return false">
+    <input type="text" name="cityInput" id="cityInput" placeholder="Enter Your City">
+    <button type="submit" for="cityInput" id="cityInputSearch" onclick="submitSearch()">
+      Search
+    </button>
+  </form>
 
-        <input type="text" name="cityInput" id="cityInput" placeholder="Enter Your City">
-        <input type="submit" for="cityInput" id="cityInputSearch" onclick="submitSearch()">
-    <div class="currentWeather">
-        <h1 id="locationName">City</h1>
-        <a href="#" id="getLocation">Get Location</a>
-        <h1 id="currentTemp">0 degrees</h1>
-    </div>
-    <script src="script.js"></script>
+  <div class="currentWeather">
+    <h1 id="locationName">City</h1>
+    <a href="#" id="getLocation">Get Location</a>
+    <h1 id="currentTemp">0 degrees</h1>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>

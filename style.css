@@ -1,32 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 body {
-    padding: 0;
-    margin: 0;
-    background: #4A148C;
-    color: white;
-    height: 100%;
-    font-family: 'Quicksand', sans-serif;
+		padding: 0;
+		margin: 0;
+		background: #4A148C;
+		color: white;
+		height: 100%;
+		font-family: 'Quicksand', sans-serif;
 }
 html {
-    width:100%;
-    padding: 0;
-    margin: 0;
+		width:100%;
+		padding: 0;
+		margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+		font-weight: 700;
 }
 p, a, li {
-    font-weight: 400;
+		font-weight: 400;
 }
+
 #cityInput {
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
-    padding: 0.5em;
-    width: 90%;
-    color: white;
+		border: 1px solid white;
+		font-size: 1em;
+		padding-left: 0.5em;
+		float: left;
+		width: 80%;
+		background-color: #f1f1f1;
 }
 #cityInputSearch {
-    width: 10%;
+		float:left;
+		width: 20%;
+		padding-left: 0.5em;
+		background: #2196f3;
+		color: white;
+		font-size: 1em;
+		border: 1px solid grey;
+		border-left: none;
+		cursor: pointer;
+}
+
+form.searchBar::after {
+		content:  "";
+		clear: both;
+		display: table;
 }
