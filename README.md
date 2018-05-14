@@ -1,6 +1,6 @@
-#Project Sunshine Website
+# Project Sunshine Website
 
-Project Sunshine is my personal weather project. Basically, it tells the weather. This is the Web version of Sunshine and is in very early stages of development. Feel free to contribute to the experimental branch but the master branch will be reserved for tried and tested features.
+Project Sunshine is my personal weather project. Basically, it tells the weather. This is the Web version of Sunshine and is in very early stages of development. Not open to public contribution, sorry. 
 
 Another thing, this website is hosted as a Github page so you can see this project [here](https://danielisahuman.github.io/sunshineweb).
 
