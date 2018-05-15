@@ -22,7 +22,9 @@ function c(pos) {
       console.log(myObj.name);
       var locationName = myObj.name;
       var currentTemp = myObj.main.temp;
+      var condition = myObj.weather[0].main;
       document.getElementById('locationName').innerHTML = locationName;
+      document.getElementById('condition').innerHTML = condition;
       document.getElementById('currentTemp').innerHTML = currentTemp + ' °C';
     }
   };
@@ -45,7 +47,9 @@ function submitSearch() {
       console.log(myObj.name);
       var locationName = myObj.name;
       var currentTemp = myObj.main.temp;
+      var condition = myObj.weather[0].main;
       document.getElementById('locationName').innerHTML = locationName;
+      document.getElementById('condition').innerHTML = condition;
       document.getElementById('currentTemp').innerHTML = currentTemp + ' °C';
     }
   };
